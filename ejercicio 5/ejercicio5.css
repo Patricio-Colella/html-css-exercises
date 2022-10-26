@@ -1,0 +1,11 @@
+#galeria{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#galeria img{
+    width: 300px;
+    height: 300px;
+}
