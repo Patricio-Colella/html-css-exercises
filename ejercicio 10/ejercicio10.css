@@ -1,0 +1,53 @@
+div{
+    border: 1px black solid;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    margin: 1% 0%;
+    background-color: black;
+    color:wheat;
+    border-radius: 10px;
+    padding: 3% 6%;
+}
+
+#container{
+    display: flex;
+    width: 99vw;
+    height: 40vh;
+    background-color: aquamarine;
+    position: absolute;
+    left:0%;
+    top:0%
+}
+
+#leftLateral{
+    background-color: aqua;
+    width: 20%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#principal{
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+
+
+@media screen and (max-width:640px) {
+    #container{
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    #leftLateral{
+        flex-direction: row;
+       width: 100%;
+    }
+}
